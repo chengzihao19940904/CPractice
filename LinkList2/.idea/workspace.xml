@@ -39,8 +39,8 @@
       <file leaf-file-name="LinkList.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkList.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="212" column="4" lean-forward="false" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
+            <state relative-caret-position="292">
+              <caret line="211" column="17" lean-forward="true" selection-start-line="211" selection-start-column="17" selection-end-line="211" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -77,8 +77,8 @@
       <list>
         <option value="$PROJECT_DIR$/Circle.c" />
         <option value="$PROJECT_DIR$/Circle.h" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/LinkList.h" />
+        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/LinkList.c" />
       </list>
     </option>
@@ -170,18 +170,17 @@
       <updated>1517301296538</updated>
       <workItem from="1517301297740" duration="30505000" />
       <workItem from="1517799441316" duration="5273000" />
-      <workItem from="1517808958612" duration="2625000" />
+      <workItem from="1517808958612" duration="4804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38403000" />
+    <option name="totallyTimeSpent" value="40582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -232,11 +231,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>19</line>
-          <option name="timeStamp" value="12" />
+          <line>23</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -361,7 +360,7 @@
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -370,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkList.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="212" column="4" lean-forward="false" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
+        <state relative-caret-position="292">
+          <caret line="211" column="17" lean-forward="true" selection-start-line="211" selection-start-column="17" selection-end-line="211" selection-end-column="17" />
           <folding />
         </state>
       </provider>

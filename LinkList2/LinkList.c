@@ -209,6 +209,9 @@ LinkList circleMerge(LinkList LA,LinkList LB)
     while(p->next != LA) p = p->next;
 
     while(q->next != LB) q = q->next;
+    p->next = LB;
+    q->next = LA;
+//    free(LB);
+    return LA;
 
-    
 }
