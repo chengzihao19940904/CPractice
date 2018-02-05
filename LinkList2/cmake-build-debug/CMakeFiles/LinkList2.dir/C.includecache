@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/program/C/dataStructure/LinkList2/Circle.c
+Circle.h
+F:/program/C/dataStructure/LinkList2/Circle.h
+
+F:/program/C/dataStructure/LinkList2/Circle.h
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+
+F:/program/C/dataStructure/LinkList2/LinkList.c
+LinkList.h
+F:/program/C/dataStructure/LinkList2/LinkList.h
+
+F:/program/C/dataStructure/LinkList2/LinkList.h
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+
+F:/program/C/dataStructure/LinkList2/main.c
+stdio.h
+-
+LinkList.h
+F:/program/C/dataStructure/LinkList2/LinkList.h
+

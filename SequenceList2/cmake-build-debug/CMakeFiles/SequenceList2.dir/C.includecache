@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/program/C/dataStructure/SequenceList2/Sequence.c
+Sequence.h
+F:/program/C/dataStructure/SequenceList2/Sequence.h
+stdio.h
+-
+stddef.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+F:/program/C/dataStructure/SequenceList2/Sequence.h
+stdbool.h
+-
+
+F:/program/C/dataStructure/SequenceList2/main.c
+stdio.h
+-
+Sequence.h
+F:/program/C/dataStructure/SequenceList2/Sequence.h
+
