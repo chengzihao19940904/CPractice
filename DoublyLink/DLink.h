@@ -14,4 +14,11 @@ typedef struct DNode{
 }* DuList,Node;
 
 bool initList(DuList *list);
+
+int getLength(DuList L);
+int getElem(DuList L,int pos);
+
+void insert(DuList *L,element e,int i);
+void insertOrder(DuList *L,element e);
+bool delete(DuList *L,int pos);
 #endif //DOUBLYLINK_DLINK_H
