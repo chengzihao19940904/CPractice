@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/program/C/dataStructure/ShedList/SqStack.c
+SqStack.h
+F:/program/C/dataStructure/ShedList/SqStack.h
+
+F:/program/C/dataStructure/ShedList/SqStack.h
+stdbool.h
+-
+
+F:/program/C/dataStructure/ShedList/main.c
+stdio.h
+-
+SqStack.h
+F:/program/C/dataStructure/ShedList/SqStack.h
+
