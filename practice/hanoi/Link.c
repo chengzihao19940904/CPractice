@@ -71,4 +71,28 @@ void hanoi(int n,LinkList *L1,LinkList *L2,LinkList *L3)
 }
 
 
+void conversion(int n)
+{
+    LinkList L;
+    element tmp;
+    int s=0,i;
+    element p;
+    initNode(&L);
+    while(n!=0)
+    {
+        push(&L,n%2);
+        n /=2;
+
+    }
+
+    while(L.top!=-1)
+    {
+        tmp = pop(&L);
+        s += tmp*pow(2,L.top+1);
+
+    }
+
+}
+
+
 

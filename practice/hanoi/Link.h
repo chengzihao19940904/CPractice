@@ -39,4 +39,11 @@ bool pop_push(LinkList *L1,LinkList *L2);
  * @param Z
  */
 void hanoi(int n,LinkList *X,LinkList *Y,LinkList *Z);
+
+/**
+ * 十进制转二进制
+ * @param n
+ * @return
+ */
+void conversion(int n);
 #endif //HANOI_LINK_H
