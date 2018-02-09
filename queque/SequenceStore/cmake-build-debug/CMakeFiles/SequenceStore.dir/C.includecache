@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/program/C/dataStructure/queque/SequenceStore/SqList.c
+SqList.h
+F:/program/C/dataStructure/queque/SequenceStore/SqList.h
+
+F:/program/C/dataStructure/queque/SequenceStore/SqList.h
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+
+F:/program/C/dataStructure/queque/SequenceStore/main.c
+stdio.h
+-
+SqList.h
+F:/program/C/dataStructure/queque/SequenceStore/SqList.h
+
