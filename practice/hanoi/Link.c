@@ -5,71 +5,70 @@
 #include "Link.h"
 
 
-bool initNode(LinkList *L,element e)
+void initNode(LinkList *L)
 {
-    *L = (LinkList)malloc(sizeof(Node));
-    if(!*L)
-        return false;
-    (*L)->data = e;
-    (*L)->next = NULL;
-    return true;
+    L->top = -1;
+}
+
+
+
+
+
+bool empty(LinkList L)
+{
+    return L.top==-1?true:false;
+}
+
+
+bool isFull(LinkList L)
+{
+    return L.top+1 == MAXSIZE?true:false;
 }
 
 element pop(LinkList *L)
 {
-    LinkList tmp=(*L)->next;
-    element p;
-
-    if(tmp==NULL)
+    element  p;
+    if(empty(*L))
         return INFINITY;
-    p = tmp->data;
-    (*L)->next = tmp->next;
-    (*L)->data--;
-    free(tmp);
+    p = L->data[L->top];
+    L->top--;
     return p;
 }
 
 
 bool push(LinkList *L,element e)
 {
-    LinkList p;
-    bool b;
-    b = initNode(&p,e);
-    if(!b)
+    if(isFull(*L))
         return false;
-    p->data = e;
-    p->next = (*L)->next;
-    (*L)->next = p;
-    (*L)->data++;
+
+    L->top++;
+    L->data[L->top] = e;
+
     return true;
 }
 
-
 bool pop_push(LinkList *L1,LinkList *L2)
 {
-    element tmp;
-    bool bl;
-    tmp = pop(*L1);
-    if(tmp ==INFINITY)
+    element p;
+    bool tmp;
+    if((p = pop(L1))== INFINITY)
         return false;
-    bl = push(*L2,tmp);
-    return bl;
 
+    tmp = push(L2,p);
+    return tmp;
 }
 
 
-void hanoi(LinkList *X,LinkList *Y,LinkList *Z)
+void hanoi(int n,LinkList *L1,LinkList *L2,LinkList *L3)
 {
-    LinkList *tmp;
-    if((*X)->next==NULL)
-    {
-        pop_push(*X,*Z);
-    }else{
-        tmp = (*X)->next;
-        hanoi(tmp,*Y,*Z);
-        pop_push(*X,*Z);
-        hanoi(*Y,*X,*Z);
+    if(n == 1)
+        pop_push(L1,L3);
+    else{
+        hanoi(n-1,L1,L3,L2);
+        pop_push(L1,L3);
+        hanoi(n-1,L2,L1,L3);
     }
 }
+
 
 

@@ -8,15 +8,22 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <math.h>
+#define MAXSIZE 50
 typedef int element;
 typedef struct node{
-    element data;
-    struct node * next;
-}Node, *LinkList;
-bool initNode(LinkList *L,element e);
+    element data[MAXSIZE];
+    int top;
+
+}Node, LinkList;
+void initNode(LinkList *L);
 element pop(LinkList *L);
 bool push(LinkList *L,element e);
 
+bool empty(LinkList L);
+
+void destroy(LinkList *L);
+
+bool isFull(LinkList L);
 /**
  * 先从L1中让置顶元素出栈，然后在放入L2中
  * @param L1
@@ -31,5 +38,5 @@ bool pop_push(LinkList *L1,LinkList *L2);
  * @param Y
  * @param Z
  */
-void hanoi(LinkList *X,LinkList *Y,LinkList *Z);
+void hanoi(int n,LinkList *X,LinkList *Y,LinkList *Z);
 #endif //HANOI_LINK_H
