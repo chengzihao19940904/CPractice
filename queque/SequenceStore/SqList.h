@@ -18,7 +18,7 @@ typedef struct Node{
     int count;  //记录总元素数
 }SqList;
 
-SqList * initList();
+void initList(SqList *L);
 
 bool empty(SqList L);
 bool isFull(SqList L);
@@ -27,5 +27,5 @@ bool add(SqList *L,element e);
 void delete(SqList *L,element * x);
 
 void inputQueue(SqList L);
-
+bool get(SqList ,element *x);
 #endif //SEQUENCESTORE_SQLIST_H
