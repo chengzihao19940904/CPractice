@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/program/c/datastructure/queque/SequenceChain/Link.c
+stdlib.h
+-
+Link.h
+/program/c/datastructure/queque/SequenceChain/Link.h
+
+/program/c/datastructure/queque/SequenceChain/Link.h
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+
+/program/c/datastructure/queque/SequenceChain/main.c
+stdio.h
+-
+Link.h
+/program/c/datastructure/queque/SequenceChain/Link.h
+

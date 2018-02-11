@@ -1,3 +1,0 @@
-F:/program/C/dataStructure/practice/hanoi/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/program/C/dataStructure/practice/hanoi/cmake-build-debug/CMakeFiles/hanoi.dir
-F:/program/C/dataStructure/practice/hanoi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
