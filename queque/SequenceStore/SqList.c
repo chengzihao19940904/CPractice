@@ -5,16 +5,16 @@
 #include "SqList.h"
 
 
-SqList * initList()
+void initList(SqList *L)
 {
-    SqList * L = (SqList *)malloc(sizeof(SqList));
+    L = (SqList *)malloc(sizeof(SqList));
     if(!L)
-        return NULL;
+        return;
 
     L->front = -1;
     L->rear = -1;
     L->count = 0;
-    return L;
+
 }
 
 
@@ -64,4 +64,14 @@ void inputQueue(SqList L)
         index %= MAXSIZE;
         printf("%d\n",L.data[index]);
     }
+}
+
+
+bool get(SqList L,element *x)
+{
+    if(empty(L))
+        return false;
+
+    *x = L.data[L.front+1];
+    return true;
 }
