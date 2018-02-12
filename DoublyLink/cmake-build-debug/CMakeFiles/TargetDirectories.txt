@@ -1,3 +1,0 @@
-F:/program/C/dataStructure/DoublyLink/cmake-build-debug/CMakeFiles/DoublyLink.dir
-F:/program/C/dataStructure/DoublyLink/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/program/C/dataStructure/DoublyLink/cmake-build-debug/CMakeFiles/rebuild_cache.dir
