@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/program/C/dataStructure/BiTree/BiTree.c
+BiTree.h
+F:/program/C/dataStructure/BiTree/BiTree.h
+
+F:/program/C/dataStructure/BiTree/BiTree.h
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+ctype.h
+-
+
+F:/program/C/dataStructure/BiTree/main.c
+stdio.h
+-
+BiTree.h
+F:/program/C/dataStructure/BiTree/BiTree.h
+
