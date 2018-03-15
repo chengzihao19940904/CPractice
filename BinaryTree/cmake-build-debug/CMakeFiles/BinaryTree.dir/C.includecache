@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/program/C/dataStructure/BinaryTree/ErrorCode.h
+
+F:/program/C/dataStructure/BinaryTree/main.c
+stdio.h
+-
+tree.h
+F:/program/C/dataStructure/BinaryTree/tree.h
+
+F:/program/C/dataStructure/BinaryTree/tree.c
+tree.h
+F:/program/C/dataStructure/BinaryTree/tree.h
+ErrorCode.h
+F:/program/C/dataStructure/BinaryTree/ErrorCode.h
+
+F:/program/C/dataStructure/BinaryTree/tree.h
+stdio.h
+-
+stdlib.h
+-
+
